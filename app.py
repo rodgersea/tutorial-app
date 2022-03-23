@@ -1,4 +1,7 @@
 from flask import Flask
+import sys
+
+print(sys.prefix)
 
 app = Flask(__name__)  # create object "app", which belongs to the Flask class
 
