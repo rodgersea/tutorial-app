@@ -1,6 +1,3 @@
-
-# fun python flask example locally
-
 from flask import Flask
 
 app = Flask(__name__)  # create object "app", which belongs to the Flask class
